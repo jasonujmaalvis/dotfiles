@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "Code",
+      "path": "app/code"
+    },
+    {
+      "name": "Theme",
+      "path": "app/design/frontend/Vendor/childtheme"
+    },
+    {
+      "name": "Base",
+      "path": "app/design/frontend/Vendor/parenttheme"
+    },
+    {
+      "name": "Vendor",
+      "path": "vendor/magento"
+    },
+    {
+      "name": "Lib",
+      "path": "lib/web/css"
+    },
+    {
+      "name": "All",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 4,
+    "[javascript]": {
+      "editor.formatOnSave": false,
+      "editor.formatOnPaste": false
+    },
+    "eslint.options": {
+      "configFile": "../../../../../dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc"
+    }
+  }
+}
